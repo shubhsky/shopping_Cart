@@ -4,7 +4,7 @@ import ItemCard from "./ItemCard";
 function Items() {
   return (
     <div className={styles.wrapper}>
-      <ItemCard name="Apple" price={199} />
+      <ItemCard id={1} name="Apple" price={199} />
     </div>
   );
 }
