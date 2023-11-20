@@ -11,7 +11,7 @@
     margin-block: 1rem;
     display: flex;
     justify-content: flex-end;
-    align-items: end;
+    align-items: flex-end;
 }
 
 .button {
