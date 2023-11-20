@@ -24,11 +24,16 @@ function CustomItemContext({children}){
       setItem(item-1);
     };
 
+    const clear = () => {
+        setTotal(0);
+        setItem(0);
+    }
+
 
 
     return(
         <itemContext.Provider value={
-            {total, item, handleAdd, handleRemove}
+            {total, item, handleAdd, handleRemove, clear}
         }>
             {children}
         </itemContext.Provider>
