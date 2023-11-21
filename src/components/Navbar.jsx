@@ -5,8 +5,7 @@ import { useValue } from "../itemContext";
 function Navbar() {
 
   const {item, total, clear, toggle} = useValue();
-
-  console.log(styles.container)
+  
   return (
     <div className={styles.container}>
       <h1>Total : &#x20B9; {total}</h1>

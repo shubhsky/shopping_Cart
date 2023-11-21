@@ -2,27 +2,27 @@ const data = [
   {
     id: 1,
     name: 'Jacket',
-    price: 5999,
+    price: 100,
   },
   {
     id: 2,
     name: 'Trouser',
-    price: 7999,
+    price: 200,
   },
   {
     id: 3,
     name: 'Skirt',
-    price: 3999,
+    price: 300,
   },
   {
     id: 4,
     name: 'Jeans',
-    price: 8999,
+    price: 400,
   },
   {
     id: 5,
     name: 'Coat',
-    price: 12999,
+    price: 500,
   },
   {
     id: 6,
